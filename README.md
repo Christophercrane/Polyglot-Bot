@@ -1,4 +1,4 @@
-# Watson Assistant Translations from Cloud Functions
+# Polyglot Bot
 
 This is a [Cloud Function](https://cloud.ibm.com/docs/openwhisk) designed to be used with Watson Assistant and Language Translator in order to translate a conversation with a user from English to their preferred language without the need for an orchestration layer.
 
