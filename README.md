@@ -3,9 +3,9 @@
 The goal of Polyglot Bot is to enable Assistants to be consumed in many languages while only requiring support and development in one language. 
 
 -Low support overhead: Manage a single assistant in a single language.  
--Functionality: Add mutli-language capabilities to any assistant.
--Simplicity: No orchestration layer needed, No developer skill required.
--Manageability: 100% on IBM cloud with reusable components.
+-Functionality: Add mutli-language capabilities to any assistant.  
+-Simplicity: No orchestration layer needed, no developer skill required.  
+-Manageability: 100% on IBM cloud with reusable components.  
 
 This pattern uses:
 -[Cloud Function](https://cloud.ibm.com/docs/openwhisk) 
