@@ -8,9 +8,9 @@ The goal of Polyglot Bot is to enable Assistants to be consumed in many language
 -Manageability: 100% on IBM cloud with reusable components.  
 
 This pattern uses:
--[Cloud Function](https://cloud.ibm.com/docs/openwhisk) 
--Watson Assistant and 
--Language Translator 
+-[Cloud Function](https://cloud.ibm.com/docs/openwhisk)  
+-Watson Assistant and  
+-Language Translator  
 ## Demo
 
 ![translator-bot](/images/translator-bot.gif)
