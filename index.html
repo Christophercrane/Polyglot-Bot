@@ -21,12 +21,12 @@
       bottom: 32px;
       right: 32px;
       z-index: 9999;
-      border: 3px solid ##44A4CB;
+      border: 6px solid ##44A4CB;
       padding: 0em;
       border-radius: 26px;
       margin: 0;
       text-decoration: none;
-      background-color: #44A4CB;
+      background-color: #191919;
       color: #ffffff;
       font-family: sans-serif;
       font-size: 1rem;
@@ -47,7 +47,7 @@
     button.chatLauncher:hover,
     button.chatLauncher:focus {
       background-color: rgb(0, 0, 0);
-      border: 1px solid #0053ba;
+      border: 1px solid #ff05a4;
     }
 
     button.chatLauncher:focus {
@@ -61,18 +61,18 @@
 <!-- We want to hide this element initially, because Web Chat isn't ready yet. -->
 <button type="button" class="chatLauncher" style="display:none;">
   <div>
-    <strong>DOT BOT</strong>
+    <strong>Multiskill</strong>
   </div>
 
-  <div id="overlay"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ecece049765469.58be3d9bbf0ab.gif" width="80%" height="80%" align="center" alt="Please wait..." /></div>
+  <div id="overlay"><img src="https://raw.githubusercontent.com/Christophercrane/multiskill/master/images/multiskilllauncherimagec.gif" width="70%" height="70%" align="center" alt="Please wait..." /></div>
 </button>
 
 
 <script>
   window.watsonAssistantChatOptions = {
-    integrationID: "2fdb4dca-f12c-4181-9b17-ededd05eecb1",
-    region: "us-east",
-    serviceInstanceID: "60666ecd-2e8b-4cc2-9b26-94a030178b57",
+    integrationID: "32593c9a-e3a7-4f13-b4a5-53d0a442c322",
+    region: "us-south",
+    serviceInstanceID: "f6fd9a31-019b-41f9-a05d-860ac4049427",
 
     // Config option to hide the default launcher.
     showLauncher: false,
@@ -98,7 +98,7 @@
 
   setTimeout(function(){const t=document.createElement('script');t.src='https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js';document.head.appendChild(t);});
 </script>
-<body style="background-color:black;">
-    <img src="https://raw.githubusercontent.com/Christophercrane/Polyglot-Bot/master/images/multiskillclr.png" alt="Multiskill!" class="center" style="width:700px;height:483px;">
+<body style="background-color:#FFF6F0;">
+    <img src="https://raw.githubusercontent.com/Christophercrane/Polyglot-Bot/master/images/polyglotpage.png" alt="Polyglotbot!" class="center" style="width:700px;height:483px;">
 </body>
 </html>
